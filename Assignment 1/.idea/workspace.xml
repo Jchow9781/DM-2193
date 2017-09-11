@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="708f8073-6d83-4264-98f6-5189db34e2d7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/267fef1906faf3519a26242ab6cc0e8d.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AS1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AS2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AS3 into Camping.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/BikeSkiShop.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Camp1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Cellar1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Footwear1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Overview.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/REI-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Subcellar.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/down the stairs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/front entrance.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ActionSports.html" afterPath="$PROJECT_DIR$/ActionSports.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Images/267fef1906faf3519a26242ab6cc0e8d.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Camp.html" afterPath="$PROJECT_DIR$/Camp.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CellarLevel.html" afterPath="$PROJECT_DIR$/CellarLevel.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clothing.html" afterPath="$PROJECT_DIR$/Clothing.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FirstFloor.html" afterPath="$PROJECT_DIR$/FirstFloor.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Footwear.html" afterPath="$PROJECT_DIR$/Footwear.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SubCellarLevel.html" afterPath="$PROJECT_DIR$/SubCellarLevel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -50,8 +34,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="540">
+              <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -60,24 +44,24 @@
       <file leaf-file-name="FirstFloor.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FirstFloor.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="243">
+              <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CellarLevel.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CellarLevel.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CellarLevel.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="297">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SubCellarLevel.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SubCellarLevel.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SubCellarLevel.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
@@ -90,8 +74,8 @@
       <file leaf-file-name="Footwear.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Footwear.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="540">
+              <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -100,8 +84,8 @@
       <file leaf-file-name="Clothing.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clothing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="486">
+              <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -111,7 +95,7 @@
         <entry file="file://$PROJECT_DIR$/Camp.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+              <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -127,13 +111,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ActionSports.html" />
-        <option value="$PROJECT_DIR$/Camp.html" />
-        <option value="$PROJECT_DIR$/CellarLevel.html" />
-        <option value="$PROJECT_DIR$/Clothing.html" />
-        <option value="$PROJECT_DIR$/FirstFloor.html" />
-        <option value="$PROJECT_DIR$/Footwear.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/SubCellarLevel.html" />
+        <option value="$PROJECT_DIR$/Footwear.html" />
+        <option value="$PROJECT_DIR$/Camp.html" />
+        <option value="$PROJECT_DIR$/FirstFloor.html" />
+        <option value="$PROJECT_DIR$/Clothing.html" />
+        <option value="$PROJECT_DIR$/CellarLevel.html" />
       </list>
     </option>
   </component>
@@ -215,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1505094209142</updated>
-      <workItem from="1505094210381" duration="4112000" />
+      <workItem from="1505094210381" duration="4887000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4112000" />
+    <option name="totallyTimeSpent" value="4887000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -276,58 +260,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SubCellarLevel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Camp.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
-          <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CellarLevel.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Clothing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FirstFloor.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Footwear.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <caret line="8" column="51" lean-forward="false" selection-start-line="8" selection-start-column="51" selection-end-line="8" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="540">
+          <caret line="20" column="35" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SubCellarLevel.html">
+    <entry file="file://$PROJECT_DIR$/FirstFloor.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="243">
+          <caret line="9" column="78" lean-forward="false" selection-start-line="9" selection-start-column="78" selection-end-line="9" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Clothing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="28" lean-forward="false" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Footwear.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CellarLevel.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
           <folding />
         </state>
       </provider>
