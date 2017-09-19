@@ -1,8 +1,76 @@
 body {
-    background-color:green;
+    background-color: wheat;
 }
 
 h1 {
-    color: navy;
+    text-align: center;
+    color: rgb(9, 112, 2);
     margin-left: 20px;
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+h2 {
+    font-family: Verdana;
+}
+
+body {
+    font-family: Verdana;
+}
+
+.body ul {
+    font-size: 1.2em;
+}
+
+.body ul ul {
+    font-size: 1em;
+}
+
+.body p {
+    font-size: 1.2em;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 237, 237);
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.navbar a {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(145, 145, 145);
+    color: white;
+}
+
+.body {
+    margin-left:20%;
+    padding:1px 16px;
+    height:1000px;
+}
+
+footer {
+    background-color: orange;
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow:hidden;
 }
