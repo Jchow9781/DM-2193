@@ -82,7 +82,7 @@ footer {
     overflow:hidden;
 }
 
-button {
+#submit {
     background-color: rgb(66, 244, 69);
     border: none;
     color: white;
@@ -93,6 +93,8 @@ button {
     border-radius: 5px;
     display:block;
     margin: 0 auto;
+    width: 150px;
+    height: 50px;
 }
 
 a {
