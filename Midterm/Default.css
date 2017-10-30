@@ -4,7 +4,7 @@ body {
 }
 
 .navbar {
-    width: 60%;
+    width: 85%;
     margin: auto;
     padding-top: 14px;
     font-size: 28px;
@@ -47,9 +47,10 @@ body {
 }
 
 .img{
+    object-fit: cover;
+    height: 300px;
     border-radius: 4px;
     filter: brightness(1.1);
-    height: 300px;
     width: 30%;
     float: left;
     margin: 1%;
@@ -91,8 +92,8 @@ body {
 
 .wrapper {
     margin: auto;
-    padding-top: 50px;
-    width: 60%;
+    padding-top: 10px;
+    width: 80%;
 }
 
 .paragraph{
@@ -133,4 +134,66 @@ p{
     float: left;
     text-align: left;
     line-height: 40px;
+}
+
+#rand_Pic{
+    width: 100%;
+}
+
+#button {
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    background-color: red;
+    font-family: Poppins;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 10em;
+    height: 2em;
+    font-size: 36px;
+}
+
+#checkBtn{
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: .4em;
+    margin-bottom: 0.5em;
+    background-color: aqua;
+    font-family: Poppins;
+    border: 1px solid;
+    border-radius: 4px;
+    width: 8em;
+    height: 1.8em;
+    font-size: 30px;
+}
+
+#catContainer {
+    width: 40%;
+    float: left;
+}
+
+#cat {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    border-style: solid;
+    border-radius: 4px;
+    box-shadow: 0 0 5px #343436;
+}
+
+#form {
+    width: 40%;
+    clear: both;
+    font-size: 20px;
+    margin-left: 10%;
+}
+
+#form input {
+    width: 100%;
+    clear: both;
+    font-size: 20px;
 }
