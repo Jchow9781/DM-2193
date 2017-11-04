@@ -5,29 +5,39 @@
     <title>Random Cats</title>
     <link rel="stylesheet" type="text/css" href="Default.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins|Anton" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script>
         var arrCat = ["Garfield.png", "Puss.jpg", "Cheshire Cat.png", "Sylvester.jpg", "Tom Cat.png"]
-        var arrNames = ["garfield", "puss", "cheshire", "sylvester", "tom"]
+        var arrNames = ["Garfield", "Puss", "Cheshire", "Sylvester", "Tom"]
         var arrIndex;
-        function randomCat(){
-            var index = generateRandomNumber(arrCat.length);
-            var img = document.getElementById("cat");
-            img.src = arrCat[index];
-            arrIndex = index;
-        }
         function generateRandomNumber(max) {
             return Math.floor(Math.random() * max)
         }
-        function checkName() {
-            var name = document.getElementById("catName").value;
-            var text;
-            if (name.toLowerCase() == arrNames[arrIndex]){
-                text = "You're correct!";
-            } else {
-                text = "You're wrong, please try again";
-            }
-            document.getElementById("result").innerHTML = text;
-        }
+        $(document).ready(function(){
+            $("#randBtn").click(function() {
+                var index = generateRandomNumber(arrCat.length);
+                $("#cat").attr("src", arrCat[index])
+                arrIndex = index;
+            });
+
+            $("#checkBtn").click(function() {
+                if($("#catName").val()) {
+                    var name = $("#catName").val();
+                    if (name.toLowerCase() == arrNames[arrIndex].toLowerCase()) {
+                        $("#result").text("You're correct!").fadeIn().fadeOut(2000);
+                    } else {
+                        $("#result").text("Incorrect, please try again").fadeIn().fadeOut(2000);
+                    }
+                } else {
+                    $("#result").text("Please put an answer in").fadeIn().fadeOut(2000)
+                }
+            });
+
+            $("#revealBtn").click(function() {
+                $("#answer").text(arrNames[arrIndex]).fadeIn().fadeOut(2000);
+            });
+
+        });
     </script>
 </head>
 <body>
@@ -40,7 +50,7 @@
         </ul>
     </div>
 
-    <button type = "button" onclick="randomCat()" id="button">Random Cat</button>
+    <button type = "button" id="randBtn">Random Cat</button>
 
     <div class="wrapper" style=" display: flex; margin: 0 auto;">
         <div id="catContainer">
@@ -50,9 +60,11 @@
             <form>
                 <p>What's this cat's name?<br></p>
                 <input type="text" id="catName">
-                <button type = "button" onclick = "checkName()" id="checkBtn">Check Answer</button>
+                <button type="button" id="checkBtn">Check Answer</button>
             </form>
-            <p id="result" style="font-size: 20px"></p>
+            <p id="result" style="font-size: 20px">  </p>
+            <button type="button" id="revealBtn">Reveal Answer</button>
+            <p id="answer" style="font-size: 20px"></p>
         </div>
     </div>
 
