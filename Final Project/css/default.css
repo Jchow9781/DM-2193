@@ -9,14 +9,12 @@ html,body{
 
 .nav-item{
     font-family: Lato;
-    font-size: 24px;
-    /*font-weight: bold;*/
+    font-size: 18px;
     color: white;
 }
 
 .active{
-    font-size: 32px;
-    font-weight: bold;
+    font-size: 24px;
     color: darkgray;
 }
 
@@ -29,6 +27,8 @@ a {
     border-radius: 3px;
     display: block;
     margin: 1.5vw;
+    align-items: center;
+
 }
 
 .thumbnail{
@@ -36,4 +36,30 @@ a {
     width: 200px;
     float: left;
     margin-right: 15px
+}
+
+.cast-carousel{
+    display: flex;
+    align-items: center;
+    height: 100%
+}
+
+.trailer-carousel{
+    display: flex;
+    align-items: center;
+    height: 100%
+}
+
+iframe{
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%
+}
+
+.carousel{
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
