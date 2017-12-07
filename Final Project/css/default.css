@@ -11,6 +11,7 @@ html,body{
     font-family: Lato;
     font-size: 18px;
     color: white;
+    margin-top: 1px;
 }
 
 .active{
@@ -28,7 +29,8 @@ a {
     display: block;
     margin: 1.5vw;
     align-items: center;
-
+    border-style: solid;
+    border-color: white;
 }
 
 .thumbnail{
@@ -62,4 +64,27 @@ iframe{
     display: flex;
     align-items: center;
     height: 100%;
+}
+
+.slick-prev {
+    left: -1vw;
+    z-index: 1;
+}
+.slick-next {
+    right: -1vw;
+}
+
+.plot{
+    color: white;
+    font-family: Lato;
+    overflow-y: scroll;
+    height: 75%;
+    width: 75%;
+    margin: auto;
+    vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
 }
