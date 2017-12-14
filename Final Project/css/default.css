@@ -2,12 +2,25 @@ html,body{
     height:100%;
 }
 
+#hamburger-icon {
+    z-index: 200;
+    position: absolute;
+    visibility: visible;
+    left: 5px;
+    top: 5px;
+    background-color: white;
+    cursor: pointer;
+}
+
 .fluid-container {
     background-image: url("../img/Background.jpg");
     background-size: cover;
 }
 .col-1{
     background-color: black;
+    margin-top: 30px;
+    height: 100%;
+    padding: 0;
 }
 
 .nav-item{
@@ -15,6 +28,7 @@ html,body{
     font-size: 18px;
     color: white;
     margin-top: 1px;
+    margin-left: 5px;
 }
 
 .active{
@@ -34,7 +48,7 @@ a {
     align-items: center;
     border-style: solid;
     border-color: white;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 .thumbnail{

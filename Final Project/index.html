@@ -10,21 +10,24 @@
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 </head>
 <body>
+    <div id = "hamburger-icon">
+        <img src="img/Hamgburger%20Menu.svg">
+    </div>
     <div class="fluid-container" style="height: 100vh; margin-top: 0;">
         <div class="row" style="height: 100%; margin: 0">
-            <div class="col-1" style="height: 100%; padding: 0;">
+            <div class="col-1">
                 <ul class="nav navbar-nav" style="height: 100%">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="index.html"> Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Cast.html">Cast</a>
+                        <a class="nav-link" href="Cast.html"> Cast</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Plot.html">Plot</a>
+                        <a class="nav-link" href="Plot.html"> Plot</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Trailers.html">Trailers</a>
+                        <a class="nav-link" href="Trailers.html"> Trailers</a>
                     </li>
                 </ul>
             </div>
@@ -46,6 +49,14 @@
     <script type="text/javascript">
         $(document).ready(function(){
             $('.carousel').slick();
+            $('#hamburger-icon').click(function(){
+                if($('.col-1').is(':visible')){
+                    $(".col-1").hide();
+                }
+                else if($('.col-1').is(':hidden')){
+                    $(".col-1").show();
+                }
+            });
         });
     </script>
 </body>

@@ -8,118 +8,132 @@
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" type="text/css" href="css/default.css"/>
     <link rel="stylesheet" type="text/css" href="css/tingle.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
 <body>
-<div class="fluid-container" style="height: 100vh; margin-top: 0;">
-    <div class="row" style="height: 100%; margin: 0">
-        <div class="col-1" style="height: 100%">
-            <ul class="nav navbar-nav" style="height: 100%">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="Cast.html">Cast</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Plot.html">Plot</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="Trailers.html">Trailers</a>
-                </li>
+    <div id = "hamburger-icon">
+        <img src="img/Hamgburger%20Menu.svg">
+    </div>
+    <div class="fluid-container" style="height: 100vh; margin-top: 0;">
+        <div class="row" style="height: 100%; margin: 0">
+            <div class="col-1" >
+                <ul class="nav navbar-nav" style="height: 100%">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="Cast.html">Cast</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Plot.html">Plot</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Trailers.html">Trailers</a>
+                    </li>
 
-            </ul>
-        </div>
-        <div class="col-11" style="height: 100%">
-            <div class="cast-carousel" >
-                <img src="img/Matthew_McConaughey.jpg" class="portrait" alt="Matthew McConaughey">
-                <img src="img/Anne_Hathaway.png" class="portrait" alt="Anne Hathaway">
-                <img src="img/Jessica_Chastain.jpg" class="portrait" alt="Jessica Chastain">
-                <img src="img/Michael_Caine.jpg" class="portrait" alt="Michael Caine">
-                <img src="img/Casey_Affleck.jpg" class="portrait" alt="Casey Affleck">
+                </ul>
+            </div>
+            <div class="col-11" style="height: 100%">
+                <div class="cast-carousel" >
+                    <img src="img/Matthew_McConaughey.jpg" class="portrait" alt="Matthew McConaughey">
+                    <img src="img/Anne_Hathaway.png" class="portrait" alt="Anne Hathaway">
+                    <img src="img/Jessica_Chastain.jpg" class="portrait" alt="Jessica Chastain">
+                    <img src="img/Michael_Caine.jpg" class="portrait" alt="Michael Caine">
+                    <img src="img/Casey_Affleck.jpg" class="portrait" alt="Casey Affleck">
+                </div>
             </div>
         </div>
     </div>
-</div>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript" src="js/tingle.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        $('.cast-carousel').slick({
-            infinite: true,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            swipeToSlide: true,
-            responsive: [
-                {
-                    breakpoint: 960,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript" src="js/tingle.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //Carousel settings
+            $('.cast-carousel').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                swipeToSlide: true,
+                responsive: [
+                    {
+                        breakpoint: 960,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
                     }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
+                ]
+            });
+
+            //Modal loader
+            $(".portrait").click(function() {
+                cast_member = $(this).attr("alt");
+                switch (cast_member) {
+                    case "Matthew McConaughey":
+                        cast_modal.setContent('<img src="img/Matthew_McConaughey.jpg" class="thumbnail">' +
+                            '<h1 style="text-align: center"><p>Matthew McConaughey</p></h1>' +
+                            '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
+                        break;
+                    case "Anne Hathaway":
+                        cast_modal.setContent('<img src="img/Anne_Hathaway.png" class="thumbnail">' +
+                            '<h1 style="text-align: center"><p>Anne Hathaway</p></h1>' +
+                            '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
+                        break;
+                    case "Jessica Chastain":
+                        cast_modal.setContent('<img src="img/Jessica_Chastain.jpg" class="thumbnail">' +
+                            '<h1 style="text-align: center"><p>Jessica Chastain</p></h1>' +
+                            '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
+                        break;
+                    case "Michael Caine":
+                        cast_modal.setContent('<img src="img/Michael_Caine.jpg" class="thumbnail">' +
+                            '<h1 style="text-align: center"><p>Michael Caine</p></h1>' +
+                            '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
+                        break;
+                    case "Casey Affleck":
+                        cast_modal.setContent('<img src="img/Casey_Affleck.jpg" class="thumbnail">' +
+                            '<h1 style="text-align: center"><p>Casey Affleck</p></h1>' +
+                            '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
+                        break;
                 }
-            ]
+                cast_modal.open();
+            })
+
+            //Function for hide/show navbar
+            $('#hamburger-icon').click(function(){
+                if($('.col-1').is(':visible')){
+                    $(".col-1").hide();
+                }
+                else if($('.col-1').is(':hidden')){
+                    $(".col-1").show();
+                }
+            });
         });
 
-        $(".portrait").click(function() {
-            cast_member = $(this).attr("alt");
-            switch (cast_member) {
-                case "Matthew McConaughey":
-                    cast_modal.setContent('<img src="img/Matthew_McConaughey.jpg" class="thumbnail">' +
-                        '<h1 style="text-align: center"><p>Matthew McConaughey</p></h1>' +
-                        '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
-                    break;
-                case "Anne Hathaway":
-                    cast_modal.setContent('<img src="img/Anne_Hathaway.png" class="thumbnail">' +
-                        '<h1 style="text-align: center"><p>Anne Hathaway</p></h1>' +
-                        '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
-                    break;
-                case "Jessica Chastain":
-                    cast_modal.setContent('<img src="img/Jessica_Chastain.jpg" class="thumbnail">' +
-                        '<h1 style="text-align: center"><p>Jessica Chastain</p></h1>' +
-                        '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
-                    break;
-                case "Michael Caine":
-                    cast_modal.setContent('<img src="img/Michael_Caine.jpg" class="thumbnail">' +
-                        '<h1 style="text-align: center"><p>Michael Caine</p></h1>' +
-                        '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
-                    break;
-                case "Casey Affleck":
-                    cast_modal.setContent('<img src="img/Casey_Affleck.jpg" class="thumbnail">' +
-                        '<h1 style="text-align: center"><p>Casey Affleck</p></h1>' +
-                        '<h6>PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> PLACEHOLDER TEXT <br> </h6>');
-                    break;
+        var cast_modal = new tingle.modal({
+            footer: true,
+            stickyFooter: false,
+            closeMethods: ['overlay', 'button', 'escape'],
+            closeLabel: "Close",
+            cssClass: ['custom-class-1', 'custom-class-2'],
+            onOpen: function() {
+                console.log('modal open');
+            },
+            onClose: function() {
+                console.log('modal closed');
             }
-            cast_modal.open();
-        })
-    });
+        });
 
-    var cast_modal = new tingle.modal({
-        footer: true,
-        stickyFooter: false,
-        closeMethods: ['overlay', 'button', 'escape'],
-        closeLabel: "Close",
-        cssClass: ['custom-class-1', 'custom-class-2'],
-        onOpen: function() {
-            console.log('modal open');
-        },
-        onClose: function() {
-            console.log('modal closed');
-        }
-    });
-
-
-</script>
+    </script>
 </body>
 </html>
